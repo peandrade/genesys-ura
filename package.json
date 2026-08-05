@@ -17,5 +17,8 @@
   "private": "true",
   "engines": {
     "node": "22.x"
+  },
+  "devDependencies": {
+    "typescript": "^7.0.2"
   }
 }
