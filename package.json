@@ -1,0 +1,21 @@
+{
+  "name": "genesys-neon-lab",
+  "version": "1.0.0",
+  "description": "API de laboratorio para integracao entre Genesys Cloud e Neon PostgreSQL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsx watch src/server.ts",
+    "start": "node dist/src/server.js",
+    "build": "tsc",
+    "check": "tsc --noEmit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "private": "true",
+  "engines": {
+    "node": ">=22"
+  }
+}
