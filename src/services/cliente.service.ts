@@ -5,7 +5,7 @@ import {
   cadastrarClienteComTelefone,
   clienteExistePorId,
   verificarTelefoneDoCliente,
-} from "../repositores/cliente.repository.js";
+} from "../repositories/cliente.repository.js";
 
 import { normalizarTelefone } from "../utils/telefone.js";
 
